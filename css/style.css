@@ -137,6 +137,50 @@ h6 {
      object-fit: contain;
 }
 
+.header {
+  background: #1A1B1D;
+}
+
+.header__container {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.menu__link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu__link:hover {
+  color: #f00;
+}
+
 .page {
   letter-spacing: -0.01em;
 }
@@ -512,6 +556,9 @@ h6 {
   gap: 10px;
   background: #F7F8FA;
   border-radius: 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 
 .section-07__card-image {
@@ -887,6 +934,13 @@ h6 {
 .swiper-button-prev.swiper-button-disabled span,
 .swiper-button-next.swiper-button-disabled span {
   background-color: #F7F8FA;
+}
+
+.image-block__container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 .swiper {

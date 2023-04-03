@@ -3332,5 +3332,9 @@
     window.addEventListener("load", (function(e) {
         initSliders();
     }));
+    const myHeader = document.querySelector("header");
+    const myFooter = document.querySelector("footer");
+    if (myHeader) myHeader.classList.add("custom-header");
+    if (myFooter) myFooter.classList.add("custom-footer");
     window["FLS"] = false;
 })();
